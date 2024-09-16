@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.historyItemContainer {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.listStyle {
+  
+  color: #cbd5e1;
+  font-size: 20px;
+}
+.image {
+  width: 20px;
+  height: 20px;
+}
+.deleteButton {
+  border-style: none;
+  background-color: transparent;
+}

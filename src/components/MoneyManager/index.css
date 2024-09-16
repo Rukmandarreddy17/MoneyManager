@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.transactionOptionContainer {
+  width: 100%;
+  display: flex;
+  margin: 10px;
+  justify-content: space-evenly;
+}
+.profileContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 20vh;
+  padding: 30px;
+  background-size: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.profileName {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+.wishingText {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.moneyManager {
+  color: #0b69ff;
+}
+.TransactionsAddContainer {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  border-style: solid;
+  border-color: #d7dfe9;
+  border-radius: 10px;
+  padding: 30px;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+.inputElement {
+  width: 70%;
+  border-style: solid;
+  border-color: #d7dfe9;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.addTransactionsHeading {
+  color: #475569;
+  font-size: 30px;
+  font-family: 'Roboto';
+  text-align: left;
+}
+.button {
+  color: white;
+  background-color: #0b69ff;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 70px;
+  margin-top: 15px;
+}
+.historyContainer {
+  width: 50%;
+  border-style: solid;
+  border-color: #d7dfe9;
+  border-radius: 10px;
+  padding: 20px;
+  overflow: auto;
+}
+.transactionContainer {
+  border-style: solid;
+  border-color: #d7dfe9;
+
+  padding: 20px;
+}
+.transactionDetailsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.listStyle {
+  list-style-type: none;
+  color: #7e858e;
+  font-size: 20px;
+}
+.AddAndDispalyTransactionContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
